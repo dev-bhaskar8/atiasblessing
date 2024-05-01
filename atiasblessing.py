@@ -25,7 +25,7 @@ while True:
         'gasPrice': Web3.to_wei('0', 'gwei'),
         'nonce': w3.eth.get_transaction_count(w.to_checksum_address(my_ronin_address)),
         'to': atiasblessings,
-        'data': '0x56996d45'
+        'data': '0x317113090000000000000000000000008355c87306f49546aea73c6bf7bebae3007e8723'
         },
     private_key=private_key)
 
